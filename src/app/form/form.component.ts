@@ -8,11 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 export class FormComponent implements OnInit {
 v1 : String;
 @Input() varchild;
+@Input() methchild;
   constructor() { }
   
   ngOnInit() {
-  }
+     }
   AlertMsg(){
-    alert(this.varchild);
+
    }
 }
