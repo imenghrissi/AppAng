@@ -3,7 +3,7 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <app-form [varchild]="title" [methchild]="shorttext()"></app-form>
+  <app-form [varchild]="title" [methchild]="shorttext()" (evenement)="receivedata($event)"></app-form>
 
 
 <router-outlet></router-outlet>

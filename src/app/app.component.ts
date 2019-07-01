@@ -10,4 +10,7 @@ export class AppComponent {
     shorttext(){
      return this.title.substring(0,3);
   }
+  receivedata(imen){
+  console.log(imen);
+  }
 }
